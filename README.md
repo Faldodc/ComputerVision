@@ -1,10 +1,23 @@
 # ComputerVision
-Proyek ini bertujuan untuk menganalisis 10 citra batik motif Parang secara numerik menggunakan Python di Google Colab. Proses mencakup preprocessing, ekstraksi fitur tekstur, visualisasi, clustering, PCA, dan identifikasi fitur paling berpengaruh. Hasil analisis dapat digunakan untuk memahami pola motif batik secara sistematis, serta sebagai dasar klasifikasi atau studi lanjutan dalam computer vision dan data science.
+Project ini merupakan tugas mata kuliah Computer Vision yang bertujuan untuk membangun model machine learning dalam melakukan klasifikasi data tumor otak. Model yang digunakan adalah Gaussian Naive Bayes, yang bekerja berdasarkan konsep probabilitas untuk menentukan apakah suatu data termasuk kategori tumor atau tidak tumor.
 
-Metode
-1. GLCM (Gray Level Co-occurrence Matrix): Mendeteksi hubungan antar piksel untuk memperoleh fitur tekstur seperti contrast, homogeneity, energy, correlation, dan ASM.
-2. Statistik Orde Pertama: Menganalisis distribusi intensitas piksel secara global, mencakup mean, standar deviasi, variance, skewness, kurtosis, dan entropy.
-3. LBP (Local Binary Pattern): Mengidentifikasi pola lokal dengan membandingkan piksel pusat dengan tetangganya, fitur yang diambil meliputi mean, standar deviasi, dan energy.
-4. Visualisasi: Histogram, heatmap, dan PCA untuk melihat distribusi, korelasi, dan pengelompokan data.
-5. Clustering: Mengelompokkan citra berdasarkan kemiripan fitur tanpa label.
-6. Feature Importance: Menentukan fitur tekstur yang paling berpengaruh pada motif batik.
+Project ini dibuat untuk :
+
+1. Menerapkan konsep Computer Vision dalam analisis data medis
+2. Melakukan preprocessing dan eksplorasi data citra
+3. Membangun model klasifikasi menggunakan Naive Bayes
+4. Mengevaluasi performa model menggunakan berbagai metrik evaluasi
+
+Dataset yang digunakan merupakan data fitur hasil ekstraksi citra medis yang terdiri dari beberapa parameter seperti:
+
+Mean
+Entropy
+Contrast
+Homogeneity
+Energy
+Dan fitur lainnya
+
+Target dari dataset adalah :
+
+0 = No Tumor
+1 = Tumor
